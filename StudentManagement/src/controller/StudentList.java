@@ -50,7 +50,7 @@ public class StudentList {
             }
         });
     }
-    // 2. SortByName()
+    // 2. SortByScore()
     public void sortByScore(){
         Collections.sort(list, new Comparator<Student>(){
             @Override public int compare(Student s1, Student s2){
